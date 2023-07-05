@@ -5,7 +5,7 @@
         <div class="col-md-8 mb-4">
           <div class="card mb-4">
             <div class="card-header py-3" style="background-color: black;">
-              <h5 class="mb-0" style="color: white; font-weight: bold;">Shipping route</h5>
+              <h5 class="mb-0" style="color: white; font-weight: bold;">Shipping route..</h5>
             </div>
             <div class="card-body">
               <form>
@@ -80,7 +80,7 @@
 <script>
 import axios from 'axios'
 import { toast } from 'bulma-toast'
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 export default {
   name: 'NewOrder',
